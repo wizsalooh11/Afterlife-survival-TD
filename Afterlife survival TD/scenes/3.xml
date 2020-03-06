@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id643704">
+  <layers>
+    <layer id="id714072">
+      <actors>
+        <actor id="id933192" prototype="id723642">
+          <attributes>
+            <point id="position">
+              <real id="x">239</real>
+              <real id="y">159</real>
+            </point>
+            <size id="size">
+              <real id="width">938</real>
+              <real id="height">540</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.250980392156863</real>
+              <real id="green">0</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id996480" prototype="id899352">
+          <attributes>
+            <point id="position">
+              <real id="x">239</real>
+              <real id="y">244</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id115201" class="DisplayTextBehavior" enabled="true">
+              <attributes>
+                <text id="name">Display Text</text>
+                <text id="bundleName">DisplayText.behavior</text>
+                <text id="text">You Won</text>
+                <text id="font">Cambay</text>
+                <real id="size">30</real>
+                <index id="alignment">1</index>
+                <boolean id="wrap">false</boolean>
+                <color id="color">
+                  <real id="red">1</real>
+                  <real id="green">1</real>
+                  <real id="blue">1</real>
+                  <real id="alpha">1</real>
+                </color>
+                <real id="offsetx">0</real>
+                <real id="offsety">0</real>
+                <index id="space">0</index>
+                <index id="directionSpace">0</index>
+                <angle id="direction">0</angle>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id372353" prototype="id899352">
+          <attributes>
+            <point id="position">
+              <real id="x">239</real>
+              <real id="y">151</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id754731" class="DisplayTextBehavior" enabled="true">
+              <attributes>
+                <text id="name">Display Text</text>
+                <text id="bundleName">DisplayText.behavior</text>
+                <text id="text">Play again</text>
+                <text id="font">Cambay</text>
+                <real id="size">30</real>
+                <index id="alignment">1</index>
+                <boolean id="wrap">false</boolean>
+                <color id="color">
+                  <real id="red">1</real>
+                  <real id="green">1</real>
+                  <real id="blue">1</real>
+                  <real id="alpha">1</real>
+                </color>
+                <real id="offsetx">0</real>
+                <real id="offsety">0</real>
+                <index id="space">0</index>
+                <index id="directionSpace">0</index>
+                <angle id="direction">0</angle>
+              </attributes>
+            </behavior>
+            <behavior id="id837142" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id594997" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id680748" class="ResetGameAction" enabled="true">
+                  <attributes>
+                    <text id="name">Reset Game</text>
+                    <text id="bundleName">ResetGame.behavior</text>
+                    <index id="enableAdvertisement">0</index>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+        <actor id="id959527" prototype="id899352">
+          <attributes>
+            <point id="position">
+              <real id="x">244</real>
+              <real id="y">51</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id992988" class="DisplayTextBehavior" enabled="true">
+              <attributes>
+                <text id="name">Display Text</text>
+                <text id="bundleName">DisplayText.behavior</text>
+                <text id="text">Quit</text>
+                <text id="font">Cambay</text>
+                <real id="size">30</real>
+                <index id="alignment">1</index>
+                <boolean id="wrap">false</boolean>
+                <color id="color">
+                  <real id="red">1</real>
+                  <real id="green">1</real>
+                  <real id="blue">1</real>
+                  <real id="alpha">1</real>
+                </color>
+                <real id="offsetx">0</real>
+                <real id="offsety">0</real>
+                <index id="space">0</index>
+                <index id="directionSpace">0</index>
+                <angle id="direction">0</angle>
+              </attributes>
+            </behavior>
+            <behavior id="id277303" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id302572" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id899027" class="EndGameAction" enabled="true">
+                  <attributes>
+                    <text id="name">Quit Game</text>
+                    <text id="bundleName">EndGame.behavior</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">EndSceneWon</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">480</real>
+      <real id="height">320</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">480</real>
+        <real id="height">320</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">400</real>
+        <real id="height">260</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>
